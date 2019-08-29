@@ -27,9 +27,11 @@ public class A1Example {
 		
 		
 		// Read values into the array
+
 		
 		for (int i=0; i<values.length; i++) {
 			values[i] = scan.nextInt();
+			
 		}
 		
 		// All input parsed, so close scanner
