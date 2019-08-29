@@ -22,9 +22,10 @@ public class A1Novice {
 			for(int j = 0; j < total_bought; j++) {
 				
 				 temp = temp + total_sum();
+				 String.format("%.2f", temp);
 				 
 			}
-		  String.format("%.2f", temp);
+		 // String.format("%.2f", temp);
 			System.out.println(first_initial + ". " + last_name + ": " + temp );
 		}
 		
