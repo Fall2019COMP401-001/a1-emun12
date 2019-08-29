@@ -9,7 +9,6 @@ public class A1Novice {
 	public static void main(String[] args) {
 		
 		
-		
 		int total_customers = scan.nextInt();
 		
 		
@@ -19,10 +18,11 @@ public class A1Novice {
 			String last_name = scan.next();
 			
 			int total_bought = scan.nextInt();
-			double temp=0;
+			double temp = 0.0;
+			// String.format("%.2f", temp);
 			
 			for(int j = 0; j < total_bought; j++) {
-				String.format("%.2f", temp);
+				// String.format("%.2f", temp);
 				 temp = temp + total_sum();
 				 //String.format("%.2f", temp);
 				 
@@ -37,7 +37,6 @@ public class A1Novice {
 	}
 
 		
-	
 		static double total_sum()  {
 			//Scanner scan = new Scanner(System.in);
 			
@@ -48,11 +47,12 @@ public class A1Novice {
 			double cost = 0.0;
 			
 			// double overall = 0.0;
-			String.format("%.2f", cost);
+			// String.format("%.2f", cost);
 			
 			while (total_items > 0) {
 				cost = cost + price;
 				total_items--;
+				String.format("%.2f", cost);
 			}
 			
 		//	scan.close();
