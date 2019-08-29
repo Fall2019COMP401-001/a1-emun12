@@ -14,10 +14,10 @@ public class A1Novice {
 		String last_name = scan.next();
 		// gets the person's last name
 
-		int total_customers = scan.nextInt();
+		// int total_customers = scan.nextInt();
 		// scans in how many customers there are total
 		
-		int[] customers = new int[total_customers];
+		// int[] customers = new int[total_customers];
 		// an array that puts each customer into one spot in the array
 		
 		int total_cost = 0;
@@ -37,11 +37,12 @@ public class A1Novice {
 		// All input parsed, so close scanner
 		scan.close();
 		
-		static int sum_total(int[]customers) {
+	/*	static int sum_total(int[]customers) {
 			
 			total_cost = 
 			
 		}
+		*/
 		
 		
 		

@@ -31,7 +31,7 @@ public class A1Example {
 		
 		for (int i=0; i<values.length; i++) {
 			values[i] = scan.nextInt();
-			
+
 		}
 		
 		// All input parsed, so close scanner
