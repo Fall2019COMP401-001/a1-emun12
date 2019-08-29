@@ -40,6 +40,7 @@ public class A1Novice {
 	
 		static double total_sum()  {
 			//Scanner scan = new Scanner(System.in);
+			
 			int total_items = scan.nextInt();
 			// double converting = total_items;
 			String word = scan.next();
@@ -47,7 +48,7 @@ public class A1Novice {
 			double cost = 0.0;
 			
 			// double overall = 0.0;
-			
+			String.format("%.2f", cost);
 			
 			while (total_items > 0) {
 				cost = cost + price;
