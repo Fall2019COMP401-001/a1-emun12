@@ -24,11 +24,11 @@ public class A1Novice {
 			for(int j = 0; j < total_bought; j++) {
 				// String.format("%.2f", temp);
 				 temp = temp + total_sum();
-				 //String.format("%.2f", temp);
-				 System.out.println(first_initial + ". " + last_name + ": " + temp );
+				 String.format("%.2f", temp);
+				
 			}
 		 // String.format("%.2f", temp);
-			// System.out.println(first_initial + ". " + last_name + ": " + temp );
+		 System.out.println(first_initial + ". " + last_name + ": " + temp );
 		}
 		
 		// System.out.println("hi");
@@ -47,7 +47,7 @@ public class A1Novice {
 			double cost = 0.0;
 			
 			// double overall = 0.0;
-			// String.format("%.2f", cost);
+			 String.format("%.2f", cost);
 			
 			while (total_items > 0) {
 				cost = cost + price;
