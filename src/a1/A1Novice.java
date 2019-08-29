@@ -19,70 +19,36 @@ public class A1Novice {
 			
 			int total_bought = scan.nextInt();
 			double temp = 0.0;
-			// String.format("%.2f", temp);
+			
 			
 			for(int j = 0; j < total_bought; j++) {
-				// String.format("%.2f", temp);
+				
 				 temp = temp + total_sum();
-				 // String.format("%.2f", temp);
+				 
 				
 			}
 		
 		 System.out.println(first_initial + ". " + last_name + ": " +  String.format("%.2f", temp) );
 		}
 		
-		// System.out.println("hi");
 		scan.close();
 		
 	}
 
 		
 		static double total_sum()  {
-			//Scanner scan = new Scanner(System.in);
-			
+		
 			int total_items = scan.nextInt();
-			// double converting = total_items;
 			String word = scan.next();
 			double price = scan.nextDouble();
 			double cost = 0.0;
 			
-			// double overall = 0.0;
-			 String.format("%.2f", cost);
-			
 			while (total_items > 0) {
 				cost = cost + price;
 				total_items--;
-				String.format("%.2f", cost);
 			}
-			
-		//	scan.close();
 			
 			return cost;
-			
-			
-
-			// double example = 1.42;
-			// int exampleInt = (int)example;
-			
-			/* for (int i = 0; i < total_items; i++) {
-				if (total_items > 1) {
-					
-					cost = converting * price;
-					overall = overall + cost;
-					total_items--;
-				} else if (total_items == 1) {
-					
-					cost = converting * price;
-					overall = overall + cost;
-					total_items--;
-				} else {
-					
-					overall = overall + cost;
-				}
-			}
-			return overall;
-			
-			*/
 			
 		}
 		
