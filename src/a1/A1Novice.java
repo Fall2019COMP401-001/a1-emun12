@@ -25,10 +25,10 @@ public class A1Novice {
 				// String.format("%.2f", temp);
 				 temp = temp + total_sum();
 				 //String.format("%.2f", temp);
-				 
+				 System.out.println(first_initial + ". " + last_name + ": " + temp );
 			}
 		 // String.format("%.2f", temp);
-			System.out.println(first_initial + ". " + last_name + ": " + temp );
+			// System.out.println(first_initial + ". " + last_name + ": " + temp );
 		}
 		
 		// System.out.println("hi");
