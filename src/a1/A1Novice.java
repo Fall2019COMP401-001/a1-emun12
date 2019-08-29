@@ -24,7 +24,7 @@ public class A1Novice {
 				 temp = temp + total_sum();
 				 
 			}
-		//  String.format("%.2f", temp);
+		  String.format("%.2f", temp);
 			System.out.println(first_initial + ". " + last_name + ": " + temp );
 		}
 		
