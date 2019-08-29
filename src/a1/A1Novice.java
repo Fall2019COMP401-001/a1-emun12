@@ -8,6 +8,8 @@ public class A1Novice {
 		
 		Scanner scan = new Scanner(System.in);
 		
+		int count = scan.nextInt();
+		
 		char first_initial = scan.next().charAt(0);
 		// gets the first letter of the person's name
 		
@@ -31,7 +33,7 @@ public class A1Novice {
 		} */
 		// loops through each customer and gives their information to the other functions
 		
-		System.out.println(first_initial + "." + last_name + ":" + total_cost );
+		System.out.println(first_initial + "." + last_name + " :" + total_cost );
 		
 		
 		// All input parsed, so close scanner
