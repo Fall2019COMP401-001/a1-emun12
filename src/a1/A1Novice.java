@@ -11,12 +11,18 @@ public class A1Novice {
 		int total_customers = scan.nextInt();
 		// gets the total number of customers
 		
+		for(int i = 0; i < total_customers; i++) {
+			
+		
 		char first_initial = scan.next().charAt(0);
 		// gets the first letter of the person's name
 		
 		String last_name = scan.next();
 		// gets the person's last name
-
+		System.out.println(first_initial + "." + last_name + ": " );
+		// add + total;
+		
+		}
 		
 		 int[] customers = new int[total_customers];
 		// an array that puts each customer into one spot in the array
@@ -35,7 +41,7 @@ public class A1Novice {
 		
 		
 		
-		System.out.println(first_initial + "." + last_name + ": " + total );
+		// System.out.println(first_initial + "." + last_name + ": " + total );
 		
 		
 		// All input parsed, so close scanner
