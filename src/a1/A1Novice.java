@@ -12,7 +12,9 @@ public class A1Novice {
 		
 		int total_customers = scan.nextInt();
 		
+		
 		for(int i = 0; i < total_customers; i++) {
+			
 			char first_initial = scan.next().charAt(0);
 			String last_name = scan.next();
 			
