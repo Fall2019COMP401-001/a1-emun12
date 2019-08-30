@@ -24,9 +24,9 @@ public class A1Adept {
 		double[] individual_cost = new double [total_number_of_customers];
 		String[] customer_name = new String [total_number_of_customers];
 		
-		
+		 
 		for(int i=0; i<total_number_of_customers; i++) {
-			customer_name[i] = scan.next();
+			customer_name[i] = scan.next(); 
 			customer_name[i] += " " + scan.next();
 			
 			int number_of_products = scan.nextInt();
@@ -39,7 +39,7 @@ public class A1Adept {
 				String food_name = scan.next();
 
 				
-				double cost = 0.0;
+				double cost = 0.0; 
 				// second for loop goes through how many products the customers bought
 				
 				for(int k=0; k<total_products; k++) {
