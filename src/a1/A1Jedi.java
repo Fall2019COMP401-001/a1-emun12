@@ -61,6 +61,6 @@ public class A1Jedi {
 		 }
 		
 		 
-		 System.out.println("bought" + count_array[1]);
+		 System.out.println("bought" + count_array[1] + count_array[2] + count_array[3]);
 	}
 }
