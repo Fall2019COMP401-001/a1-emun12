@@ -35,7 +35,6 @@ public class A1Novice {
 		
 	}
 
-		
 		static double total_sum()  {
 		
 			int total_items = scan.nextInt();
@@ -52,98 +51,8 @@ public class A1Novice {
 			
 		}
 		
+	}
 	
-	/*
-		// first try
-		
-		int total_customers = scan.nextInt();
-		// gets the total number of customers
-		
-		
-		char first_initial = scan.next().charAt(0);
-		// gets the first letter of the person's name
-		
-		String last_name = scan.next();
-		// gets the person's last name
-		
-		
-		 int[] customers = new int[total_customers];
-		// an array that puts each customer into one spot in the array
-		
-		int total = 0;
-		// stores the total cost that the customer spent on groceries
-		 */
-		
-	/*	for (int i = 0; i < customers.length; i++) {
-			customers[i] = scan.nextInt();
-			sum_total(customers[i]);
-			
-			break;
-		} */
-		// loops through each customer and gives their information to the other functions
-		
-		// System.out.println(first_initial + "." + last_name + ": " + total );
-		
-		
-		// All input parsed, so close scanner
-		// scan.close();
-		
-		
-
-	
-	
-		/*
-		static int sum_cost(int[]vals) {
-			Scanner scan = new Scanner(System.in);
-			double overall = 0.0;
-			double price = scan.nextDouble();
-			double items = scan.nextInt();
-			double cost = 0.0;
-			
-			for(int i = 0; i < scan.nextInt(); i++) {
-				if (items > 1) {
-					cost = items * price;
-					overall = overall + cost;
-					items--;
-				}
-				else if (items == 1) {
-					cost = items * price;
-					overall = overall + cost;
-					items--;
-				} else {
-					overall = overall + cost;
-				}
-			}
-			
-			return overall;
-			
-			*/
-			
-		}
-		/*	Scanner scan = new Scanner(System.in);
-			
-			int total_of_one_food = scan.nextInt();
-			int first_food = scan.nextInt();
-			int price = scan.nextInt();
-			int total_cost = 0;
-			int cost = 0;
-			
-			while (total_of_one_food > 0) {
-				if(first_food > 1) {
-					cost = total_of_one_food * price;
-					first_food--;
-					total_cost = total_cost + cost;
-				}
-				else {
-					cost = total_of_one_food * price;
-					total_cost = total_cost + cost;
-				}
-			}
-			
-			return total_cost;
-	
-		}
-		*/
 		
 	
 
