@@ -68,7 +68,9 @@ public class A1Adept {
 		
 		// System.out.println(customer_name[i] + ": " + individual_cost[i]);	
 		scan.close();
-		System.out.println("Biggest: " + max + " Smallest: " + min + " Average: " + average);
+		System.out.println("Biggest: " + max);
+		System.out.println(" Smallest: " + min);
+		System.out.println(" Average: " + average);
 		
 	}
 
