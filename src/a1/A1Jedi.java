@@ -48,6 +48,6 @@ public class A1Jedi {
 		 }
 		
 		 
-		 System.out.println(count_array[1]);
+		 System.out.println("bought" + count_array[1]);
 	}
 }
