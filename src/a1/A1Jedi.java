@@ -63,10 +63,9 @@ public class A1Jedi {
 			
 		 }
 		
-		 System.out.println(String.format("%.2f", count_array[0]) + String.format("%.2f", count_array[1]));
-		 System.out.println(String.format("%.2f", customer_bought[0]) + String.format("%.2f", customer_bought[1]));
-		// System.out.println(count_array[0] + count_array[1] + count_array[2] + count_array[3] + count_array[4] + count_array[5]);
-		// System.out.println(customer_bought[0] + customer_bought[1] + customer_bought[2]);
+		
+		 System.out.println(count_array[0] + " " + count_array[1] + count_array[2] + count_array[3] + count_array[4] + count_array[5]);
+		 System.out.println(customer_bought[0] + " " + customer_bought[1] + customer_bought[2]);
 	//	 System.out.println("bought" + count_array[1] + count_array[2] + count_array[3]);
 		 // the count array isn't matching the food array
 	}
