@@ -39,7 +39,7 @@ public class A1Jedi {
 			 for(int j=0; j<products_bought; j++) {
 					int quantity = scan.nextInt();
 					String food_name = scan.next();
-					String food_copyname[] = new String[total_products];
+					String food_copyname[] = new String[products_bought];
 					food_copyname[j] = food_name;
  					
 					/*for(int c=0; c<1;c++) {
@@ -55,10 +55,12 @@ public class A1Jedi {
 							
 							count_array[k] = count_array[k] + quantity;
 							
-							if(food_name.equals(food_copyname[j])) {
+							if(food_name.equals(food_copyname[i])) {
 								customer_bought[k] = 1;
+							} else {
+								customer_bought[k] = customer_bought[k] + 1;
 							}
-							customer_bought[k] = customer_bought[k] + 1;
+							
 							/*if(food_copyname.equals(food_name)){
 								count_array[k] = count_array[k] + quantity;
 								customer_bought[k] = 1;
