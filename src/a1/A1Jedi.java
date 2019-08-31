@@ -44,9 +44,9 @@ public class A1Jedi {
 						food_store[k] = food_name;
 						
 						if(food_store[k] == null) {
-							customer_count[k] += 1;
-						} else {
 							customer_count[k] = 1;
+						} else {
+							customer_count[k] += 1;
 						}
 					}
 				}
