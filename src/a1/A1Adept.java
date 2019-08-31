@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class A1Adept {
 
 	public static void main(String[] args) {
-		
+		 
 		 Scanner scan = new Scanner(System.in);
 		
 		int total_products = scan.nextInt();
@@ -16,7 +16,7 @@ public class A1Adept {
 		 for(int i=0; i<total_products; i++) {
 			food[i] = scan.next();
 			prices[i] = scan.nextDouble();
-		}
+		} 
 		 // this loop puts the name of the food inside an array
 		 // this loop puts in the prices of the food inside an array
 		

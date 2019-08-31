@@ -23,6 +23,7 @@ public class A1Jedi {
 		 int total_customers = scan.nextInt();
 		 String [] customer_name = new String[total_customers];
 		 int[] count_array = new int [total_products];
+		 int[] customer_bought = new int[total_products];
 		 
 		// int overall_count = 0;
 		 
@@ -32,7 +33,7 @@ public class A1Jedi {
 			customer_name[i] += " " + scan.next();
 			
 			int products_bought = scan.nextInt();
-			int count = 0;
+			// int count = 0;
 				
 			 for(int j=0; j<products_bought; j++) {
 					int quantity = scan.nextInt();
@@ -41,13 +42,14 @@ public class A1Jedi {
 					
 					for(int k=0; k<total_products; k++) {
 						if(food_name.equals(food[k])){
-							count = count + quantity;
+							count_array[k] = count_array[k] + quantity;
+							customer_bought[k] = customer_bought[k] + 1;
 							// overall_count = overall_count + count;
 							//count_array[k] = count;
 						}
-					}
+					} 
 			 }
-			 count_array[i] = count;
+			// count_array[i] = count;
 			 
 			 // DON'T make an array for each customer.
 			 // instead make a total count array near the end.
@@ -62,5 +64,6 @@ public class A1Jedi {
 		
 		 
 		 System.out.println("bought" + count_array[1] + count_array[2] + count_array[3]);
+		 // the count array isn't matching the food array
 	}
 }
