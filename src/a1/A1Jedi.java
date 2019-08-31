@@ -74,7 +74,7 @@ public class A1Jedi {
 			 if(count_array[i] == 0) {
 				 System.out.println("No customers bought " + food[i]);
 			 } else {
-				 System.out.println(customer_bought[i] + "customers bought " + count_array[i] + " " + food[i]);
+				 System.out.println(customer_bought[i] + " customers bought " + count_array[i] + " " + food[i]);
 			 }
 		 }
 		 
