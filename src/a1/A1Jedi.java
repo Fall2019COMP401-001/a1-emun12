@@ -55,7 +55,7 @@ public class A1Jedi {
 							
 							count_array[k] = count_array[k] + quantity;
 							
-							if(food_name.equals(food_copyname[k])) {
+							if(food_name.equals(food_copyname[k-1])) {
 								customer_bought[k] = 1;
 							} else {
 								customer_bought[k] = customer_bought[k] + 1;
