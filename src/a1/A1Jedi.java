@@ -32,6 +32,8 @@ public class A1Jedi {
 			customer_name[i] = scan.next();
 			customer_name[i] += " " + scan.next();
 			
+			// This loop goes through every customer.
+			
 			int products_bought = scan.nextInt();
 			// int count = 0;
 				
@@ -39,6 +41,7 @@ public class A1Jedi {
 					int quantity = scan.nextInt();
 					String food_name = scan.next();
 					
+					// This loop goes through the amount of products they bought.
 					
 					for(int k=0; k<total_products; k++) {
 						if(food_name.equals(food[k])){
@@ -46,6 +49,9 @@ public class A1Jedi {
 							customer_bought[k] = customer_bought[k] + 1;
 							// overall_count = overall_count + count;
 							//count_array[k] = count;
+							
+							// This loop adds up the quantity of the products they bought.
+							
 						}
 					} 
 					
@@ -62,11 +68,21 @@ public class A1Jedi {
 			  */
 			
 		 }
+		 
+		 
+		 for (int i=0; i<total_products; i++) {
+			 if(count_array[i] == 0) {
+				 System.out.println("No customers bought " + food[i]);
+			 } else {
+				 System.out.println(customer_bought[i] + "customers bought " + count_array[i] + " " + food[i]);
+			 }
+		 }
+		 
 		
 		
-		 System.out.println(count_array[0] + " " + count_array[1] + count_array[2] + count_array[3] + count_array[4] + count_array[5]);
-		 System.out.println(customer_bought[0] + " " + customer_bought[1] + customer_bought[2]);
+		// System.out.println(count_array[0] + " " + count_array[1] + count_array[2] + count_array[3] + count_array[4] + count_array[5]);
+		// System.out.println(customer_bought[0] + " " + customer_bought[1] + customer_bought[2]);
 	//	 System.out.println("bought" + count_array[1] + count_array[2] + count_array[3]);
-		 // the count array isn't matching the food array
+		
 	}
 }
