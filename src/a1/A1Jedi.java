@@ -58,7 +58,7 @@ public class A1Jedi {
 					*/
 						
 						if(food_name.equals(food[k])){
-							if(customer_name[i].equals(customer_name[i])) {
+							if(customer_name[k].equals(customer_name[i])) {
 								count_array[k] = count_array[k] + quantity;
 								customer_bought[k] = 1;
 							} else {
