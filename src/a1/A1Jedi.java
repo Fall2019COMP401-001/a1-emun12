@@ -44,7 +44,7 @@ public class A1Jedi {
 					// This loop goes through the amount of products they bought.
 					
 					for(int k=0; k<total_products; k++) {
-						if(food_name.equals(food[k]) && customer_name[k].equals(customer_name[k])){
+					/*	if(food_name.equals(food[k]) && customer_name[k].equals(customer_name[k])){
 							count_array[k] = count_array[k] + quantity;
 							customer_bought[k] = 1;
 							// overall_count = overall_count + count;
@@ -53,6 +53,18 @@ public class A1Jedi {
 						} else {
 							count_array[k] = count_array[k] + quantity;
 							customer_bought[k] = customer_bought[k] + 1;
+						}
+					
+					*/
+						
+						if(food_name.equals(food[k])){
+							if(customer_name[i].equals(customer_name[i])) {
+								count_array[k] = count_array[k] + quantity;
+								customer_bought[k] = 1;
+							} else {
+								count_array[k] = count_array[k] + quantity;
+								customer_bought[k] = customer_bought[k] + 1;
+							}
 						}
 					} 
 					
