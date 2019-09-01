@@ -16,6 +16,7 @@ public class A1Jedi {
 		 for(int i=0; i<total_products; i++) {
 			food[i] = scan.next();
 			prices[i] = scan.nextDouble();
+			
 		}
 		 // this loop puts the name of the food inside an array
 		 // this loop puts in the prices of the food inside an array
@@ -25,7 +26,7 @@ public class A1Jedi {
 		 int number_of_customers = scan.nextInt();
 		 String[] customer_name = new String[number_of_customers];
 		 int [] quantity_array = new int [total_products];
-		 String [] food_store = new String[total_products];
+		// String [] food_store = new String[total_products];
 		 int[] customer_count = new int[total_products];
 		 
 		 for(int i=0; i<number_of_customers; i++) {
@@ -33,21 +34,33 @@ public class A1Jedi {
 			customer_name[i] += scan.next();
 			
 			int products_bought = scan.nextInt();
+			 int [] food_store = new int[total_products];
 			
 			for(int j=0; j<products_bought; j++) {
 				int quantity = scan.nextInt();
 				String food_name = scan.next();
 				
+				
 				for(int k=0; k<total_products; k++) {
 					if(food_name.equals(food[k])) {
 						quantity_array[k] += quantity;
-						food_store[k] = food_name;
+						// food_store[k] = food_name;
+						food_store[k] += 1;
+						int food_store_variable = food_store[k];
 						
-						if(food_store[k] == null) {
+						
+						if(food_store_variable > 1) {
 							customer_count[k] = 1;
 						} else {
 							customer_count[k] += 1;
 						}
+						
+						/*if(food_store[k] == null) {
+							customer_count[k] = 1;
+						} else {
+							customer_count[k] += 1;
+						}
+						*/
 					}
 				}
 				
