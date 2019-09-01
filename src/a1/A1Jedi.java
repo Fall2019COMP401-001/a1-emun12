@@ -32,7 +32,7 @@ public class A1Jedi {
 		 for(int i=0; i<number_of_customers; i++) {
 			customer_name[i] = scan.next();
 			customer_name[i] += scan.next();
-			int [] food_store = new int[total_products];
+			// int [] food_store = new int[total_products];
 			
 			int products_bought = scan.nextInt();
 			// int [] food_store = new int[total_products];
@@ -40,7 +40,7 @@ public class A1Jedi {
 			for(int j=0; j<products_bought; j++) {
 				int quantity = scan.nextInt();
 				String food_name = scan.next();
-				
+				int [] food_store = new int[total_products];
 				
 				for(int k=0; k<total_products; k++) {
 					if(food_name.equals(food[k])) {
