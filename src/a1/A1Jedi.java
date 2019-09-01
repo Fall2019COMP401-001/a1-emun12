@@ -49,7 +49,7 @@ public class A1Jedi {
 						food_store[k] += 1;
 						
 						if(food_store[k] > 1) {
-							customer_count[k] = 1;
+							customer_count[k] += 1;
 							System.out.println(customer_count[k]);
 						} else {
 							customer_count[k] += 1;
