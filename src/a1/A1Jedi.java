@@ -56,9 +56,7 @@ public class A1Jedi {
 						} else {
 							customer_count[k] += 1;
 							
-							if (food_name.equals("Banana")) {
-								customer_count[k] += 1;
-							}
+						
 						}
 						
 						/*if(food_store[k] == null) {
