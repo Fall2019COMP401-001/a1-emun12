@@ -32,9 +32,10 @@ public class A1Jedi {
 		 for(int i=0; i<number_of_customers; i++) {
 			customer_name[i] = scan.next();
 			customer_name[i] += scan.next();
+			int [] food_store = new int[total_products];
 			
 			int products_bought = scan.nextInt();
-			 int [] food_store = new int[total_products];
+			// int [] food_store = new int[total_products];
 			
 			for(int j=0; j<products_bought; j++) {
 				int quantity = scan.nextInt();
@@ -46,8 +47,6 @@ public class A1Jedi {
 						quantity_array[k] += quantity;
 						// food_store[k] = food_name;
 						food_store[k] += 1;
-						// int food_store_variable = food_store[k];
-						
 						
 						if(food_store[k] > 1) {
 							customer_count[k] = 1;
