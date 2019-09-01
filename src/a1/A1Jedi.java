@@ -79,7 +79,7 @@ public class A1Jedi {
 			 
 			 
 			scan.close();
-		/* for (int i=0; i<total_products; i++) {
+		 for (int i=0; i<total_products; i++) {
 			 if(customer_count[i] == 0) {
 				 System.out.println("No customers bought " + food[i]);
 			 } else {
@@ -87,11 +87,8 @@ public class A1Jedi {
 			 }
 		 }
 		 
-		 */
-			for (int p=0; p<total_products; p++) {
-				System.out.println(customer_count[p]);
-			}
 		 
+		
 		 
 		 
 		
