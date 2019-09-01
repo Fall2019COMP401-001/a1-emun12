@@ -51,9 +51,10 @@ public class A1Jedi {
 						
 						if(food_store_variable > 1) {
 							customer_count[k] = 1;
+							System.out.println(customer_count[k]);
 						} else {
 							customer_count[k] += 1;
-							System.out.println(customer_count[k]);
+							
 						}
 						
 						/*if(food_store[k] == null) {
