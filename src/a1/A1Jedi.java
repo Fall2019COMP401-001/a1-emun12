@@ -32,15 +32,14 @@ public class A1Jedi {
 		 for(int i=0; i<number_of_customers; i++) {
 			customer_name[i] = scan.next();
 			customer_name[i] += scan.next();
-			// int [] food_store = new int[total_products];
+			 int [] food_store = new int[total_products];
 			
 			int products_bought = scan.nextInt();
-			// int [] food_store = new int[total_products];
+			
 			
 			for(int j=0; j<products_bought; j++) {
 				int quantity = scan.nextInt();
 				String food_name = scan.next();
-				int [] food_store = new int[total_products];
 				
 				for(int k=0; k<total_products; k++) {
 					if(food_name.equals(food[k])) {
@@ -49,10 +48,10 @@ public class A1Jedi {
 						food_store[k] += 1;
 						
 						if(food_store[k] > 1) {
-							customer_count[k] += 1;
+							customer_count[k] = 1;
 					
 						} else {
-							customer_count[k] = 1;
+							customer_count[k] += 1;
 							
 						}
 						
@@ -69,13 +68,18 @@ public class A1Jedi {
 		 }
 			 scan.close();
 		 
-		 for (int i=0; i<total_products; i++) {
+		/* for (int i=0; i<total_products; i++) {
 			 if(customer_count[i] == 0) {
 				 System.out.println("No customers bought " + food[i]);
 			 } else {
 				 System.out.println(customer_count[i] + " customers bought " + quantity_array[i] + " " + food[i]);
 			 }
 		 }
+		 
+		 */
+			for (int p=0; p<total_products; p++) {
+				System.out.println(customer_count[p]);
+			}
 		 
 		 
 		 
